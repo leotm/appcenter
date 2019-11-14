@@ -28,10 +28,10 @@ echo "Installing NVM..."
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
 
-echo "Installing v8.5..."
-nvm install v8.5.0
-nvm use --delete-prefix v8.5.0
-nvm alias default v8.5.0
+echo "Installing v13.1.0..."
+nvm install v13.1.0
+nvm use --delete-prefix v13.1.0
+nvm alias default v13.1.0
 
 echo "Identifying selected node version..."
 node --version
